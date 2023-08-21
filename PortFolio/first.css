@@ -1,0 +1,146 @@
+#resume{
+   padding: 70px 30px;
+   background-color: white;
+}
+ #resume .resume-row{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 4px;
+
+} 
+
+  #resume .resume-row .resume-cols h2{
+   color: var(--sideBGColor);
+   font-weight: 600;
+   font-size: 25px;
+   margin: 15px 0;
+}
+#resume .resume-row .resume-cols .my-info{
+   padding: 0 20px 0 20 px;
+   margin: 20px 0;
+   border-left: 2px solid var(--themeColor);
+   position: relative;
+}
+#resume .resume-row .resume-cols .my-info::before{
+content: '';
+position: absolute;
+top: 0px;
+left: -10px;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+border: 2px solid var(--themeColor);
+background-color: white;   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#resume .resume-row .resume-cols .my-edu span + p + p {
+   color: var(--textColor);
+   font-size: 15px;
+   font-weight: 500;
+   font-style: italic;
+   margin-bottom: 15px;
+}
+#resume .resume-row .resume-cols .pro-exp{
+   padding: 10px  20px;
+   border-left: 2px solid var(--themeColor);
+   position: relative;
+}
+#resume .resume-row .resume-cols .pro-exp::before{
+   content:'';
+   position: absolute;
+   top: 0px;
+   left: -10px;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   border: 2px solid var(--themeColor);
+   background-color: white;
+}
+#resume .resume-row .resume-cols .pro-exp p{
+  color: var(--textColor);
+  font-size: 17px;
+  font-weight: 500;
+  font-style: italic;
+}
+#resume .resume-row .resume-cols .pro-exp ul li{
+   margin: 10px 0;
+   margin-left: 20px;
+   color: var(--textColor);
+   font-size: 15px;
+   font-weight: 500;
+}
+
+
+
+
+
+
+#service .service-row{
+   margin-top: 50px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap: 30px;
+}
+#service .service-row .box-service{
+   display: flex;
+   gap: 20px;
+}
+#service .service-row .box-service .icon i{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   border: 2px solid var(--themeColor);
+   font-size: 22px;
+   line-height: 46px;
+   background-color: var(--themeColor);
+   color: var(--bgColor);
+   transition: 0.7s;
+}
+
+
+
+Contact .contact-row .contact-right{
+   flex-basis: 60%;
+   min-width: 60%;
+   background-color: white;
+   box-shadow: 0 0 20px rgba(0,0, 0,20%);
+   border-radius: 4px;
+   padding: 30px; 
+}
+#Contact .contact-row .contact-right form{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   margin: 20px 0;
+}
+#Contact .contact-row .contact-right form  input,
+#Contact .contact-row .contact-right form textarea{
+display: block;
+width: 100%;
+margin: 30px 0;
+font-size: 15px;
+font-weight: 500;
+color: var(--textColor);
+padding: 10px 20px;
+border: 2px solid lightgray;
+border-radius: 2px;
+outline: none;
+resize: none;
+transition: 0.5s;
+}
