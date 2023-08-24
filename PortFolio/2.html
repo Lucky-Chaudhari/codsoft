@@ -1,0 +1,162 @@
+<section id="resume">
+
+    <h1 class="sub-heading">Resume</h1>
+    <div class="divider"></div>
+    <p class="sub-para">Hi there! I'm Lucky Chaudhari, a passionate Front-End Developer with a keen eye for detail and a love for crafting seamless user experiences. 
+        With over 2 years of hands-on experience in front-end development, I have honed my skills in HTML, CSS, and JavaScript, turning design concepts into pixel-perfect,
+         interactive websites and web applications.  I specialize in modern front-end frameworks like React, which allows me to build dynamic and scalable user interfaces with ease.</p>
+         <div class="resume-row">
+            <!-- Left col -->
+            <div class="resume-cols">
+                <h2>
+                    Summary
+                </h2>
+                <div class="my-info">
+                    <h3>L.S Chaudhari</h3>
+                    <p>Detail-oriented, organized and meticulous employee. Works at fast pace to meet tight deadlines. Enthusiastic team player ready to contribute to company success. 
+                        Personable Lead Software Developer </p>
+                         <ul>
+                            <li>Maharatra</li>
+                            <li> Amravati</li>
+                            <li>luckychaudhari014@gmai.com</li>
+                         </ul>
+                </div>
+                <h2>Education</h2>
+                <div class="my-edu">
+
+                   
+                    <h3>Bachelor of Engineering 
+                        Sant Gadge Baba University </h3>
+                        <span class="sp-box">Aug 2020 - July 2024  </span>
+                       
+                        <h3>General Science 
+                            Independent Junior College Rural Intsitute </h3>
+                            <span class="sp-box">Jul 2018 - Feb 2020  </span>
+                </div>
+            </div>
+            <!-- Right col -->
+            <div class=" resume-col">
+                <h2>Professional Experience</h2>
+                <div class="pro-exp">
+                    <h3>fresher as a Software Engineer</h3>
+                    <span class="sp-box">2024-persent</span>
+                    <p> I'm Student , HVPM COET College of Engineering</p>
+                   <ul>
+                    <li>I am Student as s Software Engineer and  I am also  in larning stage</li>
+                    <li> I caugth fire coding. It seemed like appropriate dream given my BE in Information Technology </li>
+                    <li>I yearned to learn more , yearned to learn  Something Different</li>
+                   </ul>
+                </div>
+            </div>
+         </div>
+ </section>
+
+
+
+ <!-- Portfolio item4-->
+ <div class="port-item">
+    <div class="port-img"> 
+        <img src="port1.jpg" alt="...">
+
+    </div>
+    <div class="port-info">
+        <h4>WordPress</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At perspiciatis nihil recusandae, numquam doloribus sunt ad debitis.</p>
+        <a href="#"> <i class="fa-solid fa-up-right-form-square"></i></a>
+    </div>
+</div>
+<!-- Portfolio item5 -->
+<div class="port-item">
+    <div class="port-img"> 
+        <img src="port1.jpg" alt="...">
+
+    </div>
+    <div class="port-info">
+        <h4>WordPress</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At perspiciatis nihil recusandae, numquam doloribus sunt ad debitis.</p>
+        <a href="#"> <i class="fa-solid fa-up-right-form-square"></i></a>
+    </div>
+</div>
+<!-- Portfolio item4-->
+<div class="port-item">
+    <div class="port-img"> 
+        <img src="port1.jpg" alt="...">
+
+    </div>
+    <div class="port-info">
+        <h4>WordPress</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At perspiciatis nihil recusandae, numquam doloribus sunt ad debitis.</p>
+        <a href="#"> <i class="fa-solid fa-up-right-form-square"></i></a>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+MAGENTO WEB DEVELOPMENT
+SERVICES
+Use our expertise to create and expand your online store on the Magento platform. Our Magento web development services can also help you transfer your existing store to the platform or add new extensions
+
+DRUPAL WEB DEVELOPMENT SERVICES
+From comprehensive module management to building a web solution from scratch, our Drupal web development services will cover your every business need.
+
+
+
+<!-- Service-2 -->
+<div class="box-service">
+    <div class="icon">
+        <i class="fa-solid fa-list-check"></i>
+    </div>
+    <div class="ser-info">
+        <h4>Ecommerce Web Development</h4>
+        <p>Build an online store with seamless and user-friendly experience, the right extensions, and reliable integration with your other processes.
+             Our ecommerce web development services include building full-scale ecommerce platforms.</p>
+    </div>
+</div>
+ <!-- Service-3 -->
+ <div class="box-service">
+    <div class="icon">
+        <i class="fa-solid fa-list-check"></i>
+    </div>
+    <div class="ser-info">
+        <h4> Java Web Development</h4>
+        <p>With over a decade in providing reliable Java web development services, you can trust us to build a comprehensive web solution on Java for your business.</p>
+    </div>
+</div>
+ <!-- Service 4--->
+ <div class="box-service">
+    <div class="icon">
+        <i class="fa-solid fa-list-check"></i>
+    </div>
+    <div class="ser-info">
+        <h4>Custom Web Development</h4>
+        <p>Build a custom solution for your business from the ground-up. 
+            Our wide-ranging custom web development services allow you to create cross-platform solutions for any industry regardless of scale or complexity.</p>
+    </div>
+</div>
+// Active link state on scroll
+let navLinks = document.querySelectorAll('nav ul li a')
+// get all section
+let section = document.querySelectorAll('section')
+window.addEventListener {'scroll',function(){
+    const scrollPos = this.window.scrollY
+    Sections. forEach(section =>{
+        if(scrollPos>section.offsetTop&&scrollPos<(section.offsetTop + section.offsetHeight)){
+            navLinks.forEach(link=>{
+                link.classList.remove('active');
+                if(section.getAttbute('id') == link.getAttribute('href').substring(1))
+                {
+                    link.classList.add('active');
+                }
+            });
+        }
+    });
+}};
